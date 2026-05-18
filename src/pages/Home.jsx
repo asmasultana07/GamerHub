@@ -1,13 +1,14 @@
 import React from "react"
+import MyContainer from "../components/MyContainer";
 const Home = () => {
 
 
     return (
         
-        <section>
+        <MyContainer>
             {/* // banner section (slider) */}
-            <div>
-                <div className="carousel w-full">
+            <div className="my-6">
+                <div className="carousel w-full  rounded-lg">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img
                             src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
@@ -103,7 +104,7 @@ const Home = () => {
             
         </div>
 
-        </section>
+        </MyContainer>
 
     )
 }

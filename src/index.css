@@ -1,7 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
 
+  --color-primary: #5e0684;
+  /* --color-secondary: #240233; */
+  --color-base-100: #c9b3e8;
+  --color-base-200: #240233;
+}
+
+.text-one {
+    @apply bg-linear-to-r from-[#390da8] to-[#9e4ec1] bg-clip-text text-transparent;
+}
 .my-btn {
-    /* color:  [#ba93f1]; */
-    @apply btn btn-soft btn-primary text-[16px] border-none  hover:bg-gradient-to-r from-[#632EE3] to-[#ba93f1];
+    /* color:  [#240233]; */
+    @apply btn btn-soft btn-primary text-base border-none  hover:bg-linear-to-r from-[#632EE3] to-[#ba93f1];
 }
