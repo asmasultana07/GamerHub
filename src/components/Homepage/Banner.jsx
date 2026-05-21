@@ -13,7 +13,7 @@ const Banner = () => {
   const games = gamesData.slice(0, 5);
 
   return (
-    <div className='w-full bg-slate-900'>
+    <div className='w-full bg-slate-900 '>
       <MyContainer>
         <Swiper 
           modules={[Pagination, Autoplay, EffectFade]}
@@ -24,7 +24,7 @@ const Banner = () => {
           autoplay={{ delay: 3000, disableOnInteraction: false,}}
           pagination={{ clickable: true }}
           className="overflow-hidden h-100 md:h-[500px] shadow-2xl relative"
-          >
+         > 
             {games.map((game) => (
               <SwiperSlide key={game.id} className="w-full h-full relative">
                 <img src={game.coverPhoto} alt={game.title} className="w-full h-full object-cover object-top" />
