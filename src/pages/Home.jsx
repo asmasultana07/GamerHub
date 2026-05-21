@@ -1,110 +1,119 @@
 import React from "react"
+import useTitle from '../hooks/useTitle';
 import MyContainer from "../components/MyContainer";
-const Home = () => {
+import Banner from "../components/Homepage/Banner";
+import PopularGames from "../components/Homepage/PopularGames";
+import Newsletter from "../components/Homepage/Newsletter";
 
+const Home = () => {
+    useTitle("Home")
 
     return (
-        
-        <MyContainer>
-            {/* // banner section (slider) */}
-            <div className="my-6">
-                <div className="carousel w-full  rounded-lg">
-                    <div id="slide1" className="carousel-item relative w-full">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                            className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide2" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" className="carousel-item relative w-full">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                            className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide1" className="btn btn-circle">❮</a>
-                            <a href="#slide3" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" className="carousel-item relative w-full">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                            className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide2" className="btn btn-circle">❮</a>
-                            <a href="#slide4" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" className="carousel-item relative w-full">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                            className="w-full" />
-                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide3" className="btn btn-circle">❮</a>
-                            <a href="#slide1" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <>
+        <Banner></Banner>
+        <PopularGames></PopularGames>
+        <Newsletter></Newsletter>
+        </>
+        // <MyContainer>
+        //     {/* // banner section (slider) */}
+        //     <div className="my-6">
+        //         <div className="carousel w-full  rounded-lg">
+        //             <div id="slide1" className="carousel-item relative w-full">
+        //                 <img
+        //                     src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+        //                     className="w-full" />
+        //                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        //                     <a href="#slide4" className="btn btn-circle">❮</a>
+        //                     <a href="#slide2" className="btn btn-circle">❯</a>
+        //                 </div>
+        //             </div>
+        //             <div id="slide2" className="carousel-item relative w-full">
+        //                 <img
+        //                     src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+        //                     className="w-full" />
+        //                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        //                     <a href="#slide1" className="btn btn-circle">❮</a>
+        //                     <a href="#slide3" className="btn btn-circle">❯</a>
+        //                 </div>
+        //             </div>
+        //             <div id="slide3" className="carousel-item relative w-full">
+        //                 <img
+        //                     src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+        //                     className="w-full" />
+        //                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        //                     <a href="#slide2" className="btn btn-circle">❮</a>
+        //                     <a href="#slide4" className="btn btn-circle">❯</a>
+        //                 </div>
+        //             </div>
+        //             <div id="slide4" className="carousel-item relative w-full">
+        //                 <img
+        //                     src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+        //                     className="w-full" />
+        //                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        //                     <a href="#slide3" className="btn btn-circle">❮</a>
+        //                     <a href="#slide1" className="btn btn-circle">❯</a>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
 
-        {/* // popular games section (cards) */}
-            <div>
-                <div className="hover-3d">
-                    {/* content */}
-                    <figure className="w-60 rounded-2xl">
-                        <img src="https://img.daisyui.com/images/stock/card-1.webp?x" alt="Tailwind CSS 3D card" />
-                    </figure>
-                    {/* 8 empty divs needed for the 3D effect */}
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+        // {/* // popular games section (cards) */}
+        //     <div>
+        //         <div className="hover-3d">
+        //             {/* content */}
+        //             <figure className="w-60 rounded-2xl">
+        //                 <img src="https://img.daisyui.com/images/stock/card-1.webp?x" alt="Tailwind CSS 3D card" />
+        //             </figure>
+        //             {/* 8 empty divs needed for the 3D effect */}
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //         </div>
 
-                <div className="hover-3d">
-                    {/* content */}
-                    <figure className="w-60 rounded-2xl">
-                        <img src="https://img.daisyui.com/images/stock/card-2.webp?x" alt="Tailwind CSS 3D hover" />
-                    </figure>
-                    {/* 8 empty divs needed for the 3D effect */}
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+        //         <div className="hover-3d">
+        //             {/* content */}
+        //             <figure className="w-60 rounded-2xl">
+        //                 <img src="https://img.daisyui.com/images/stock/card-2.webp?x" alt="Tailwind CSS 3D hover" />
+        //             </figure>
+        //             {/* 8 empty divs needed for the 3D effect */}
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //         </div>
 
-                <div className="hover-3d">
-                    {/* content */}
-                    <figure className="w-60 rounded-2xl">
-                        <img src="https://img.daisyui.com/images/stock/card-3.webp?x" alt="Tailwind CSS 3D hover" />
-                    </figure>
-                    {/* 8 empty divs needed for the 3D effect */}
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+        //         <div className="hover-3d">
+        //             {/* content */}
+        //             <figure className="w-60 rounded-2xl">
+        //                 <img src="https://img.daisyui.com/images/stock/card-3.webp?x" alt="Tailwind CSS 3D hover" />
+        //             </figure>
+        //             {/* 8 empty divs needed for the 3D effect */}
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //             <div></div>
+        //         </div>
+        //     </div>
 
-        {/* // NewsLetter section */}
-        <div>
+        // {/* // NewsLetter section */}
+        // <div>
             
-        </div>
+        // </div>
 
-        </MyContainer>
+        // </MyContainer>
 
     )
 }

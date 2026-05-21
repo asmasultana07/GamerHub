@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "PUBG: Battlegrounds",
+    "coverPhoto": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.pubgmobile.com/",
+    "description": "PUBG Mobile is an intensely tactical battle royale game where 100 players parachute onto a remote island for a winner-takes-all showdown. Players must locate and scavenge their own weapons, vehicles, and supplies, and defeat every player in a visually and tactically rich battleground that forces players into a shrinking play zone.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Valorant",
+    "coverPhoto": "https://i.postimg.cc/bwr0Q8rC/China-CG-Jett-Jump-Full.webp",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant is a highly competitive 5v5 character-based tactical shooter set on a near-future Earth. It blends precise gunplay with unique supernatural agent abilities. Each agent has a custom set of tactical skills designed to create strategic opportunities, demanding sharp reflexes, teamwork, and clever utility management to secure victories across multiple rounds.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "3",
+    "title": "Cyberpunk 2077",
+    "coverPhoto": "https://i.postimg.cc/9Fg2xtXP/wp3496656.webp",
+    "category": "RPG",
+    "downloadLink": "https://www.cyberpunk.net/",
+    "description": "Cyberpunk 2077 is an immersive open-world action-adventure RPG set in Night City, a megalopolis obsessed with power, glamour, and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skillset, and playstyle to explore a vast city where choices shape the story.",
+    "ratings": "4.2",
+    "developer": "CD Projekt Red"
+  },
+  {
+    "id": "4",
+    "title": "Grand Theft Auto V",
+    "coverPhoto": "https://i.postimg.cc/zv9qPR4j/275.webp",
+    "category": "Action-Adventure",
+    "downloadLink": "https://www.rockstargames.com/gta-v",
+    "description": "Grand Theft Auto V is a massive open-world masterpiece that follows the interconnected lives of three completely different criminals: a young street hustler, a retired bank robber, and a terrifying psychopath. Together, they must pull off a series of dangerous heists to survive in a ruthless city while navigating the massive, ever-evolving online multiplayer world of Los Santos.",
+    "ratings": "4.9",
+    "developer": "Rockstar North"
+  },
+  {
+    "id": "5",
+    "title": "Elden Ring",
+    "coverPhoto": "https://i.postimg.cc/C54WbnSK/nightrein-elden-ring-wiki-guide-min.webp",
+    "category": "RPG",
+    "downloadLink": "https://www.bandainamcoent.com/games/elden-ring",
+    "description": "Elden Ring is a dark fantasy action-RPG epic set in the vast Lands Between, created by game director Hidetaka Miyazaki and fantasy novelist George R.R. Martin. Players take on the role of the Tarnished, exploring a seamless, massive open world filled with terrifying demigods, hidden dungeons, rich lore, and brutally challenging combat systems to reclaim the shattered Elden Ring.",
+    "ratings": "4.8",
+    "developer": "FromSoftware"
+  },
+  {
+    "id": "6",
+    "title": "Minecraft",
+    "coverPhoto": "https://i.postimg.cc/bvQLGczd/1e7335aeab8ec6fd3ba39123f762a227.webp",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft is a culturally defining sandbox game that places players in an infinite, blocky, procedurally generated world. With no set goals, players are free to explore deep caves, mine rare resources, craft tools, and build anything they can imagine. The game features a Survival mode where you fight off nighttime monsters, and a Creative mode with unlimited blocks.",
+    "ratings": "4.6",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "7",
+    "title": "Counter-Strike 2",
+    "coverPhoto": "https://i.postimg.cc/PfLyZwfF/counter-strike-2-released-1-year-ago-today-how-do-you-feel-v0-0xrqopybw9rd1.webp",
+    "category": "FPS",
+    "downloadLink": "https://www.counter-strike.net/cs2",
+    "description": "Counter-Strike 2 represents the largest technical leap forward in the history of the legendary tactical shooter franchise. Built on the modern Source 2 engine, it introduces realistic responsive smoke grenades, completely overhauled lighting and maps, high-fidelity audio design, and sub-tick server updates, offering the ultimate competitive round-based tactical experience.",
+    "ratings": "4.4",
+    "developer": "Valve"
+  },
+  {
+    "id": "8",
+    "title": "Apex Legends",
+    "coverPhoto": "https://i.postimg.cc/SQWXwSD3/wp4013153.webp",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends is a high-octane, free-to-play squad-based battle royale shooter. It features an expanding roster of powerful Legends, each equipped with their own unique personalities, tactical strengths, and ultimate abilities. Teams must coordinate closely, combining character skills and fast-paced fluid movement to out-position and out-shoot 19 other rival squads.",
+    "ratings": "4.3",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": "9",
+    "title": "The Witcher 3: Wild Hunt",
+    "coverPhoto": "https://i.postimg.cc/3NSQP069/wp1854716.webp",
+    "category": "RPG",
+    "downloadLink": "https://www.thewitcher.com/en/witcher3",
+    "description": "The Witcher 3: Wild Hunt is a story-driven open-world RPG set in a visually stunning dark fantasy universe filled with morally gray choices. You play as Geralt of Rivia, a professional monster hunter tasked with finding Ciri, a child of prophecy who holds the power to reshape or destroy the world, while fleeing from the terrifying spectral army known as the Wild Hunt.",
+    "ratings": "4.9",
+    "developer": "CD Projekt Red"
+  },
+  {
+    "id": "10",
+    "title": "EA Sports FC 24",
+    "coverPhoto": "https://i.postimg.cc/v8jPSvSQ/10482449.webp",
+    "category": "Sports",
+    "downloadLink": "https://www.ea.com/games/ea-sports-fc",
+    "description": "EA Sports FC 24 brings football fans closer to the pitch than ever before, powered by HyperMotionV technology that translates real-world match data into ultra-realistic in-game animations. Featuring fully licensed leagues, authentic stadium environments, and deep upgrades to Ultimate Team and Career modes, it delivers the most realistic virtual soccer experience.",
+    "ratings": "4.1",
+    "developer": "EA Sports"
+  },
+  {
+    "id": "11",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.postimg.cc/sg30pgNM/genshin-impact-pictures-wlq3ykrxbaoadjow.webp",
+    "category": "Action RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/",
+    "description": "Genshin Impact is a massive, visually enchanting anime-style open-world action RPG. You play as the Traveler, arriving from another world to search for your lost twin sibling. Throughout your massive journey across the continent of Teyvat, you unlock unique elemental magic combat mechanics, build diverse character parties, and uncover the deep mysteries of the seven nations.",
+    "ratings": "4.6",
+    "developer": "miHoYo"
+  },
+  {
+    "id": "12",
+    "title": "Call of Duty: Warzone",
+    "coverPhoto": "https://imgs.search.brave.com/FyFaahuGC8AWr3_N1BdttbefsNUrltYe45GRGckCMY0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDU5MzY2/NDEuanBn",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/warzone",
+    "description": "Call of Duty: Warzone is a massive, free-to-play battle royale arena experience that brings signature fluid Call of Duty gunplay to a giant map. Up to 150 players drop in to loot armor, buy loadout drops, and fight to survive. Features like the 'Gulag' offer dead players a 1v1 chance to fight for redeployment, making matches highly unpredictable and intense.",
+    "ratings": "4.4",
+    "developer": "Infinity Ward"
+  },
+  {
+    "id": "13",
+    "title": "Red Dead Redemption 2",
+    "coverPhoto": "https://assets1.ignimgs.com/2016/10/18/red-dead-redemption-2-buttonjpg-f9ad35.jpg?crop=1:1,smart&format=jpg&auto=webp&quality=80",
+    "category": "Action-Adventure",
+    "downloadLink": "https://www.rockstargames.com/reddeadredemption2",
+    "description": "Red Dead Redemption 2 is an unparalleled, cinematic epic of life in America's unforgiving heartland at the end of the Wild West era. Following Arthur Morgan and the Van der Linde gang, players must rob, steal, and fight across a breath-takingly detailed open world. Deep survival mechanics, realistic wildlife interactions, and an emotional story make it a legendary gaming achievement.",
+    "ratings": "4.9",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "14",
+    "title": "Rocket League",
+    "coverPhoto": "https://imgs.search.brave.com/uX_3RgyL3xCdt4Nks0YVsFfvZ9eP1MYPOLYVOU0SXBY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NTQz/NjIuanBn",
+    "category": "Sports / Arcade",
+    "downloadLink": "https://www.rocketleague.com/",
+    "description": "Rocket League is a highly unique, fast-paced hybrid of arcade-style soccer and chaotic vehicular destruction. Featuring simple physics-based controls that are easy to learn but incredibly difficult to master, players pilot rocket-powered sports cars to drive, fly, and smash a giant ball into the opponent's net in competitive 1v1, 2v2, or 3v3 arenas.",
+    "ratings": "4.5",
+    "developer": "Psyonix"
+  },
+  {
+    "id": "15",
+    "title": "Among Us",
+    "coverPhoto": "https://imgs.search.brave.com/Y9AeAcv1HPzjciXoZybcHjlQGZC5AyzAmETBEJEsy2w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvY29v/bC1hbW9uZy11cy10/aXRsZS1zY3JlZW4t/YWhocWkwa2N3YXRk/dDg0Ny5qcGc",
+    "category": "Party / Casual",
+    "downloadLink": "https://innersloth.com/games/among-us/",
+    "description": "Among Us is a phenomenally popular online social deduction party game set on a spaceship. Players are divided into Crewmates and secret Impostors. While Crewmates run around completing spaceship maintenance tasks, Impostors sneak through vents to sabotage operations and eliminate crew members, forcing intense, deceptive emergency group discussions to vote out suspects.",
+    "ratings": "4.2",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "16",
+    "title": "Forza Horizon 5",
+    "coverPhoto": "https://imgs.search.brave.com/jF095MDssg_9sdUfMePdZYBr1_AaeRSfdIQOWG9yIv0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpqQTROMkU0/TkdRdE9HVTJNUzAw/WTJRNExXSmxaakF0/TVRJek16Rm1aR1E0/TXpVeVhrRXlYa0Zx/Y0djQC5qcGc",
+    "category": "Racing",
+    "downloadLink": "https://www.xbox.com/en-US/games/forza-horizon-5",
+    "description": "Forza Horizon 5 is the ultimate open-world driving driving simulator adventure, featuring hundreds of the world's greatest cars. Set across the vibrant, diverse, and stunning landscapes of Mexico, players can race through historic towns, deep jungles, wide deserts, and up a massive active volcano during dynamically shifting tropical weather storms and seasonal events.",
+    "ratings": "4.7",
+    "developer": "Playground Games"
+  }
+]

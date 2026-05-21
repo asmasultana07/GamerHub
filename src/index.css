@@ -17,3 +17,17 @@
     /* color:  [#240233]; */
     @apply btn btn-soft btn-primary text-base border-none  hover:bg-linear-to-r from-[#632EE3] to-[#ba93f1];
 }
+
+/* Banner slider */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  opacity: 1 !important; 
+  background: rgba(255, 255, 255, 0.4) !important;
+  transition: all 0.3s ease; 
+}
+.swiper-pagination-bullet-active {
+  background: #a855f7 !important;  
+  width: 32px !important;  
+  border-radius: 6px !important;  
+}
