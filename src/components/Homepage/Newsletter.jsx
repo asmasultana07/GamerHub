@@ -2,6 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
+    
     <div className="my-10 w-full my-bg text-white  rounded-3xl p-8 md:p-12 relative overflow-hidden shadow-2xl">
       <div className="mb-6 max-w-2xl mx-auto text-center relative z-10">
         <span className="text-purple-500 font-bold tracking-widest text-xs uppercase bg-purple-500/10 px-3 py-1 rounded-full">

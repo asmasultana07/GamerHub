@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "coverPhoto": "game-thumb-1.jpg",
+    "title": "Next-Gen Graphics: What to Expect from Unreal Engine 5.5",
+    "category": "Reviews",
+    "date": "May 22, 2026 ",
+    "description": "Dive deep into the latest rendering technologies shaping the future of open-world RPGs."
+  },
+  
+  {
+    "id": "2",
+    "coverPhoto": "game-thumb-2.avif",
+    "title": "Top 5 Esports Tournaments to Watch This Summer",
+    "category": "Esports",
+    "date": "May 20, 2026 ",
+    "description": "The biggest prize pools and most anticipated match ups you won't want to miss."
+  },
+  
+  {
+    "id": "3",
+    "coverPhoto": "game-thumb-3.avif",
+    "title": "The Ultimate Gaming Handheld Guide for 2026",
+    "category": "Hardware",
+    "date": "May 18, 2026 ",
+    "description": "Comparing performance, battery life, and display quality of the top portable consoles."
+  }
+]
