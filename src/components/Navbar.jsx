@@ -2,7 +2,6 @@ import React from "react";
 import logoImage from "../assets/Gamelogoo.png";
 import { Link,NavLink } from 'react-router';
 import { FaGithub } from 'react-icons/fa';
-import ThemeToggle from "./ThemeToggle";
 import MyContainer from "./MyContainer";
 
 

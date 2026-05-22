@@ -5,11 +5,13 @@ import About from "../pages/About";
 import Profile from "../pages/Profile";
 import Register from "../pages/Register";
 import Login from "../pages/Login";
+import ErrorPage from '../Pages/ErrorPage';
 
 const Router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
         {
             index: true,
@@ -32,6 +34,10 @@ const Router = createBrowserRouter([
             element: <Login />,
         },
     ]
+  },
+  {
+    path: '*',
+    element: <ErrorPage />,
   },
 ]);
 
