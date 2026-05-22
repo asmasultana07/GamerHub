@@ -31,7 +31,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow  ">
               <li> <NavLink to="/" className={getNavActive}>  Home </NavLink>
               </li>
-              <li> <NavLink to="/about" className={getNavActive}> About </NavLink>
+              <li> <NavLink to="/all-games" className={getNavActive}> All Games </NavLink>
               </li>
               {/* <li> <NavLink to="/installation" className={getNavActive}> 
                       Installation </NavLink>
@@ -55,7 +55,7 @@ const Navbar = () => {
           <ul className="flex gap-4">
             <li> <NavLink to="/" className={getNavActive}>  Home </NavLink>
             </li>
-            <li>  <NavLink to="/about" className={getNavActive}>   About </NavLink>
+            <li>  <NavLink to="/all-games" className={getNavActive}>   All Games </NavLink>
             </li>
             {/* <li> <NavLink to="/installation" className={getNavActive}>    Installation </NavLink>
             </li> */}
