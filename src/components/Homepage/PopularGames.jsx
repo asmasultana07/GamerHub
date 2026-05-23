@@ -8,6 +8,7 @@ const PopularGames = () => {
 
   return (
      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 m-4'>
+      
       {popularGames.map((game) => (
         <div key={game.id} className="flex flex-col justify-between bg-base-200 border border-slate-100 rounded-xl shadow-md overflow-hidden">
           <div>

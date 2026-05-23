@@ -1,36 +1,45 @@
-import React from 'react';
-import gamesData from '../../data/games.json';
-import MyContainer from '../../components/MyContainer';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, Pagination, Autoplay } from 'swiper/modules';
+import React from "react";
+import gamesData from "../../data/games.json";
+import MyContainer from "../../components/MyContainer";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Pagination, Autoplay } from "swiper/modules";
+import { motion } from "framer-motion";
 
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/pagination';
-
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
 
 const Banner = () => {
   const games = gamesData.slice(0, 5);
 
   return (
-    <div className='w-full bg-slate-900 '>
-      <MyContainer>
-        <Swiper 
+    <div className="w-full bg-slate-900 ">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="bg-slate-900 p-4 rounded-xl"
+      >
+        <Swiper
           modules={[Pagination, Autoplay, EffectFade]}
-          effect={'fade'}
+          effect={"fade"}
           speed={800}
           slidesPerView={1}
           loop={true}
-          autoplay={{ delay: 3000, disableOnInteraction: false,}}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
-          className="overflow-hidden h-100 md:h-[500px] shadow-2xl relative"
-         > 
-            {games.map((game) => (
-              <SwiperSlide key={game.id} className="w-full h-full relative">
-                <img src={game.coverPhoto} alt={game.title} className="w-full h-full object-cover object-top" />
+          className="overflow-hidden h-100 md:h-150 shadow-2xl relative"
+        >
+          {games.map((game) => (
+            <SwiperSlide key={game.id} className="w-full h-full relative">
+              <img
+                src={game.coverPhoto}
+                alt={game.title}
+                className="w-full h-full object-cover object-top"
+              />
 
-                <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-900/60 to-transparent flex items-end">
-                  <div className="p-6 md:p-12 max-w-2xl text-white">
+              <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-900/60 to-transparent flex items-end">
+                <div className="p-6 md:p-12 max-w-2xl text-white">
                   <span className="bg-purple-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                     {game.category}
                   </span>
@@ -40,15 +49,14 @@ const Banner = () => {
                   <p className="text-slate-300 text-sm md:text-base mb-6 line-clamp-2 md:line-clamp-3">
                     {game.description}
                   </p>
-                  </div>
                 </div>
-              </SwiperSlide>
-            ))}
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
-      </MyContainer>
+      </motion.div>
     </div>
-
-  )
-}
+  );
+};
 
 export default Banner;
