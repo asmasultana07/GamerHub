@@ -69,12 +69,11 @@ const Games = () => {
                 </div>
                 <div className="px-4 py-2 flex justify-between items-center border-t">
                   <span className="text-amber-400">&#9733; {game.ratings}</span>
-                  <a
-                    href="/game-details"
-                    className="px-4 py-2 rounded-lg border border-base-100 text-base-100 font-medium hover:bg-base-100 hover:text-base-200 transition"
-                  >
+                  <Link to={`/game/${game.id}`}> 
+                  <button className="px-4 py-2 rounded-lg border border-base-100 text-base-100 font-medium hover:bg-base-100 hover:text-base-200 transition">
                     View Details
-                  </a>
+                  </button>
+                  </Link>
                 </div>
               </motion.div>
             </div>
@@ -92,8 +91,8 @@ const Games = () => {
             </p>
             <button className="mt-6 rounded-md px-5 my-btn">
               <Link to="/all-games" onClick={() => setSearch("")}>
-                {" "}
-                See All Games{" "}
+                 
+                See All Games 
               </Link>
             </button>
           </div>

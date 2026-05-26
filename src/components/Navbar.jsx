@@ -20,8 +20,8 @@ const Navbar = () => {
   return (
     <nav>
       
-      <div className="navbar bg-base-100 shadow-sm ">
-         
+      <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+         <div className="navbar-start   ">
           {/* // small device */}
           <div className="dropdown dropdown-start">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle lg:hidden">
@@ -40,15 +40,11 @@ const Navbar = () => {
           </div>
 
         {/* Desktop */}
-        <div className="navbar-start">
-          <Link to="/" >
-            <div className="flex justify-center items-center">
-              <img src={logoImage} alt="" className="w-8 h-8"/>
-              <p className="btn btn-ghost p-1 text-2xl  text-one">
-               GameHub
-              </p>
-            </div>
-          </Link>
+        
+        <Link to="/" className="flex justify-center items-center">
+          <img src={logoImage} alt="" className="w-8 h-8" />
+          <p className="btn btn-ghost border-none p-1 text-2xl  text-one">GameHub</p>
+        </Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">
@@ -64,10 +60,10 @@ const Navbar = () => {
 
         <div className="navbar-end  gap-3">
          <div className="navbar-end  hidden md:flex gap-2">
-           <a href="" target="_blank"  className="my-btn"> 
-              Register</a>
-           <a href="" target="_blank"  className="my-btn"> 
-              Login</a>
+           <Link to="/auth/registration"    className="my-btn"> 
+              Register</Link>
+           <Link to="/auth/login"    className="my-btn"> 
+              Login</Link>
          </div>
           
         </div>

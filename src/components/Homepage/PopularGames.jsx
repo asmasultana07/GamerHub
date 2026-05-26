@@ -1,6 +1,6 @@
 import React from 'react'
 import gamesData from '../../data/games.json'
-
+import { Link  } from "react-router";
 
 const PopularGames = () => {
 
@@ -21,9 +21,9 @@ const PopularGames = () => {
           </div>
           <div className='px-4 py-2 flex justify-between items-center border-t'>
             <span className='text-amber-400'>&#9733; {game.ratings}</span>
-            <a href="/game-details" className="px-4 py-2 rounded-lg border border-base-100 text-base-100 font-medium hover:bg-base-100 hover:text-base-200 transition">
+            <Link to={`/game/${game.id}`} className="px-4 py-2 rounded-lg border border-base-100 text-base-100 font-medium hover:bg-base-100 hover:text-base-200 transition">
           View Details
-        </a>
+        </Link>
           </div>
         </div>
       ))}
