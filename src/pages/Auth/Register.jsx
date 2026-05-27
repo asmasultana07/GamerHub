@@ -1,18 +1,15 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router";
+import { use, useContext, useState } from "react";
+import { Link } from "react-router"; 
 import { FaEye } from "react-icons/fa";
 import { IoEyeOff } from "react-icons/io5";
 import useTitle from "../../hooks/useTitle";
-// import {
-//   createUserWithEmailAndPassword,
-//   sendEmailVerification,
-//   updateProfile,
-// } from "firebase/auth";
-// import { auth } from "../firebase/firebase.config";
+import { AuthContext } from "../../provider/AuthProvider";
+
 
 const Register = () => {
   useTitle("Register");
   const [show, setShow] = useState(false);
+  const { createUser } = use(AuthContext);
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -23,7 +20,17 @@ const Register = () => {
     const email = form.email.value;
     const password = form.password.value;
     // console.log(name, password, email);
-  }
+    createUser(email, password)
+    .then((result) => { 
+    const user = result.user;
+    // console.log(user);
+    }) 
+    .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // alert(errorMessage);
+    });
+  };
 
   return (
     <>
