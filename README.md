@@ -19,42 +19,55 @@ The primary mission of **Gamehub** is to bridge the gap between passionate indep
 - **Smooth Routing :** Client-side navigation managed via React Router, featuring protected private routing restricted to authenticated Firebase users.
 - **Engaging Animations :** Fluid UI transitions and interactive elements brought to life using Motion (formerly Framer Motion.
 - **Deployment :** Hosted and deployed seamlessly on Firebase for reliable, fast-loading live access.
-- **Smart Filtering & Searching :** Instantly isolate games by specific tags, genres, or developer names using an optimized client-side search engine.
 - **One-Click Installations :** Integrated handling for direct downloads or links to developer-supported launch platforms.
 
 ---
-## 🛠️ npm Packages Used
+## ⚙️ npm Packages Used
+This project leverages a modern JavaScript stack to ensure rich interactivity, fast rendering, and reliable state management. Below are the key `npm` packages driving the application:
 
 - `react` / `react-dom`
 - `react-router-dom`
 - `firebase`
 - `tailwindcss`
-- `framer-motion` (Motion)
+- `framer-motion` 
 - `react-spring`
-- `lucide-react` (or `react-icons`)
-
----
-##  Built With & npm Packages Used
-
-This project leverages a modern JavaScript stack to ensure rich interactivity, fast rendering, and reliable state management. Below are the key `npm` packages driving the application:
-
-#### Core Framework & State
-- **`react` / `react-dom`**: Powers the component-based, high-performance UI architecture.
-- **`react-router-dom`**: Handles declarative routing, dynamic parameter matching (`/game/:id`), and smooth view transitions without page refreshes.
-
-### UI Styling & Layout
-- **`styled-components`** (or **`tailwindcss`**): Leveraged for highly modular, scoped components and reactive layouts.
-- **`lucide-react`** (or **`react-icons`**): Supplies a clean, scalable, and modern vector iconography suite across the platform.
-
-### Data Fetching & State Synchronization
-- **`axios`**: Manages asymmetric asynchronous HTTP requests to game catalogs and developer API microservices.
-- **`framer-motion`**: Implements elegant, hardware-accelerated animations for hover states, modal popups, and list reorderings.
+- `react-icons`
 
 ---
 
-## 🔧 Getting Started
+## Technology Stack
 
-Follow these instructions to set up and run a local instance of Gamehub on your machine.
+| Layer                      | Technology                    |
+|--------------              |-------------------------------|
+| **Frontend**               | React.js, Tailwind CSS              |
+| **Authentication**         | Firebase Auth  |
+| **Routing**                | React Router      |
+| **Animation Libraries**    | Motion (Framer Motion)      |
+| **Version Ctrl**           | Git, GitHub       |
+| **Deployment**             | Firebase Hosting       |
+
+
+
+## Getting Started
 
 ### Prerequisites
 Make sure you have Node.js (v16.x or higher) and npm installed.
+
+### Installation & Local Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/your-username/gamehub.git](https://github.com/your-username/gamehub.git)
+   cd gamehub
+2. **Install Dependencies:**
+   ```bash
+   npm install
+3. **Run the Development Server:**
+   ```bash
+   npm run dev 
+
+4. Create **.env.local** file and add Firebase config keys
+   
+6. **Build for Production:**
+   ```bash
+   npm run build
